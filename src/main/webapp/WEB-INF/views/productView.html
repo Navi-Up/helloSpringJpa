@@ -102,5 +102,10 @@
         </form>
     </div>
 
+    <footer style="margin-top:40px;padding-top:16px;border-top:1px solid #ddd;color:#666;font-size:0.9em;">
+        실습 수행 일시: <span th:text="${#temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 HH:mm:ss')}"></span>
+        | 학번: 2191234 | 성명: 이현종
+    </footer>
+
 </body>
 </html>
